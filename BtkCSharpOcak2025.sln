@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u3_klavyedenokuma", "u3_kla
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u4_ikisayi_topla", "u4_ikisayi_topla\u4_ikisayi_topla.csproj", "{AA7135A6-3BB3-4F7B-B2C2-6B07416960B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u5_metin_birlestirme", "u5_metin_birlestirme\u5_metin_birlestirme.csproj", "{FD191709-E6B6-4FB5-B1AB-A3A2819C021F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{AA7135A6-3BB3-4F7B-B2C2-6B07416960B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA7135A6-3BB3-4F7B-B2C2-6B07416960B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA7135A6-3BB3-4F7B-B2C2-6B07416960B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD191709-E6B6-4FB5-B1AB-A3A2819C021F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD191709-E6B6-4FB5-B1AB-A3A2819C021F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD191709-E6B6-4FB5-B1AB-A3A2819C021F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD191709-E6B6-4FB5-B1AB-A3A2819C021F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
