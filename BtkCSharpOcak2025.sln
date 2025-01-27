@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u9_tekrar", "u9_tekrar\u9_t
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u10_kosullu_ifadeler", "u10_kosullu_ifadeler\u10_kosullu_ifadeler.csproj", "{8A46E55F-311A-4FC3-9E58-C6F70CABBF51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u11_buyuk_kucuk_bul", "u11_buyuk_kucuk_bul\u11_buyuk_kucuk_bul.csproj", "{C598BF6B-5B57-4675-A365-55BA8C65D2CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u12_not_ortalamasi", "u12_not_ortalamasi\u12_not_ortalamasi.csproj", "{ABB5E2F3-C523-4BD2-BC5F-A938CA38D28F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +76,13 @@ Global
 		{8A46E55F-311A-4FC3-9E58-C6F70CABBF51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A46E55F-311A-4FC3-9E58-C6F70CABBF51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A46E55F-311A-4FC3-9E58-C6F70CABBF51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C598BF6B-5B57-4675-A365-55BA8C65D2CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C598BF6B-5B57-4675-A365-55BA8C65D2CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C598BF6B-5B57-4675-A365-55BA8C65D2CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C598BF6B-5B57-4675-A365-55BA8C65D2CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABB5E2F3-C523-4BD2-BC5F-A938CA38D28F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABB5E2F3-C523-4BD2-BC5F-A938CA38D28F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABB5E2F3-C523-4BD2-BC5F-A938CA38D28F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABB5E2F3-C523-4BD2-BC5F-A938CA38D28F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

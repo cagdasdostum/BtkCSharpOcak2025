@@ -9,3 +9,4 @@ else
 {
     Console.WriteLine("else Bloğu koşul False olduğu için çalışır.");
 }
+
