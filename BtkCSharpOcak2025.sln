@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u4_ikisayi_topla", "u4_ikis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u5_metin_birlestirme", "u5_metin_birlestirme\u5_metin_birlestirme.csproj", "{FD191709-E6B6-4FB5-B1AB-A3A2819C021F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u6_alan_ve_cevre", "u6_alan_ve_cevre\u6_alan_ve_cevre.csproj", "{53E2F907-66DC-40A9-A156-4EADC75ADA65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{FD191709-E6B6-4FB5-B1AB-A3A2819C021F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD191709-E6B6-4FB5-B1AB-A3A2819C021F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD191709-E6B6-4FB5-B1AB-A3A2819C021F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53E2F907-66DC-40A9-A156-4EADC75ADA65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53E2F907-66DC-40A9-A156-4EADC75ADA65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53E2F907-66DC-40A9-A156-4EADC75ADA65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53E2F907-66DC-40A9-A156-4EADC75ADA65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
