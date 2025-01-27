@@ -12,3 +12,6 @@ Console.WriteLine(sehir);
 Console.WriteLine(deger);
 Console.WriteLine(a);
 
+
+
+
