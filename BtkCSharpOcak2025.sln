@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u11_buyuk_kucuk_bul", "u11_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u12_not_ortalamasi", "u12_not_ortalamasi\u12_not_ortalamasi.csproj", "{ABB5E2F3-C523-4BD2-BC5F-A938CA38D28F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u13_askerlik_durumu", "u13_askerlik_durumu\u13_askerlik_durumu.csproj", "{65088D63-29A0-4980-89E0-45EC94619500}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,5 +86,9 @@ Global
 		{ABB5E2F3-C523-4BD2-BC5F-A938CA38D28F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABB5E2F3-C523-4BD2-BC5F-A938CA38D28F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABB5E2F3-C523-4BD2-BC5F-A938CA38D28F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65088D63-29A0-4980-89E0-45EC94619500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65088D63-29A0-4980-89E0-45EC94619500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65088D63-29A0-4980-89E0-45EC94619500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65088D63-29A0-4980-89E0-45EC94619500}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
