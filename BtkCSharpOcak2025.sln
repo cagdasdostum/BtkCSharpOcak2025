@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u7_not_ortalama", "u7_not_o
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u8_operatorler", "u8_operatorler\u8_operatorler.csproj", "{6684DE67-55E3-428E-8C0E-FAFEEC5EBDA5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u9_tekrar", "u9_tekrar\u9_tekrar.csproj", "{74E28B2C-856D-428F-A579-3E8B3A8395D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,9 @@ Global
 		{6684DE67-55E3-428E-8C0E-FAFEEC5EBDA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6684DE67-55E3-428E-8C0E-FAFEEC5EBDA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6684DE67-55E3-428E-8C0E-FAFEEC5EBDA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74E28B2C-856D-428F-A579-3E8B3A8395D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74E28B2C-856D-428F-A579-3E8B3A8395D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74E28B2C-856D-428F-A579-3E8B3A8395D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74E28B2C-856D-428F-A579-3E8B3A8395D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
