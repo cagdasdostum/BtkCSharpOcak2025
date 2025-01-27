@@ -9,5 +9,5 @@ var cevre = (a + b) * 2;//parantezler işlem önceliği belirler
 // Örnek;
 //Kenarları 5 ve 3 olan bir dörtgenin alanı 15 'tir.
 //Kenarları 5 ve 3 olan bir dörtgenin çevresi 16 'tir.
-Console.WriteLine($"Kenarları {a} ve {b} olan bir dörtgenin alanı {alan} eder.");
-Console.WriteLine($"Kenarları {a} ve {b} olan bir dörtgenin çevresi {cevre} eder.");
+Console.WriteLine($"Kenarları \"{a}\" ve \"{b}\" \nolan bir dörtgenin alanı {alan} eder.");
+Console.WriteLine($"""Kenarları "{a}" ve "{b}" olan bir dörtgenin çevresi {cevre} eder.""");
