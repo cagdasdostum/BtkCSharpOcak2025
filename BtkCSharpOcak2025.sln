@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u6_alan_ve_cevre", "u6_alan
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u7_not_ortalama", "u7_not_ortalama\u7_not_ortalama.csproj", "{010B5C3A-1EF0-488B-8073-A324C44A6CB0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u8_operatorler", "u8_operatorler\u8_operatorler.csproj", "{6684DE67-55E3-428E-8C0E-FAFEEC5EBDA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,5 +56,9 @@ Global
 		{010B5C3A-1EF0-488B-8073-A324C44A6CB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{010B5C3A-1EF0-488B-8073-A324C44A6CB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{010B5C3A-1EF0-488B-8073-A324C44A6CB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6684DE67-55E3-428E-8C0E-FAFEEC5EBDA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6684DE67-55E3-428E-8C0E-FAFEEC5EBDA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6684DE67-55E3-428E-8C0E-FAFEEC5EBDA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6684DE67-55E3-428E-8C0E-FAFEEC5EBDA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
