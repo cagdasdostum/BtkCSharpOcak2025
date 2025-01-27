@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u8_operatorler", "u8_operat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u9_tekrar", "u9_tekrar\u9_tekrar.csproj", "{74E28B2C-856D-428F-A579-3E8B3A8395D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u10_kosullu_ifadeler", "u10_kosullu_ifadeler\u10_kosullu_ifadeler.csproj", "{8A46E55F-311A-4FC3-9E58-C6F70CABBF51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,5 +68,9 @@ Global
 		{74E28B2C-856D-428F-A579-3E8B3A8395D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74E28B2C-856D-428F-A579-3E8B3A8395D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74E28B2C-856D-428F-A579-3E8B3A8395D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A46E55F-311A-4FC3-9E58-C6F70CABBF51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A46E55F-311A-4FC3-9E58-C6F70CABBF51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A46E55F-311A-4FC3-9E58-C6F70CABBF51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A46E55F-311A-4FC3-9E58-C6F70CABBF51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
