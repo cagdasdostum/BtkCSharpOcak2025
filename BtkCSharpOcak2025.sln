@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u2_degiskenler", "u2_degisk
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u3_klavyedenokuma", "u3_klavyedenokuma\u3_klavyedenokuma.csproj", "{4DE8E96F-650F-4EB0-A6EE-5D7EC62BE089}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u4_ikisayi_topla", "u4_ikisayi_topla\u4_ikisayi_topla.csproj", "{AA7135A6-3BB3-4F7B-B2C2-6B07416960B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{4DE8E96F-650F-4EB0-A6EE-5D7EC62BE089}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DE8E96F-650F-4EB0-A6EE-5D7EC62BE089}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DE8E96F-650F-4EB0-A6EE-5D7EC62BE089}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA7135A6-3BB3-4F7B-B2C2-6B07416960B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA7135A6-3BB3-4F7B-B2C2-6B07416960B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA7135A6-3BB3-4F7B-B2C2-6B07416960B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA7135A6-3BB3-4F7B-B2C2-6B07416960B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
