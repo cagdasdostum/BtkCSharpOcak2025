@@ -23,15 +23,15 @@ if(vki < 18.5)
 {
      Console.WriteLine("Zayıf");
 }
-else if(vki >=18.5 && vki < 25)
+else if(vki < 25)
 {
     Console.WriteLine("Normal");
 }
-else if(vki >=25 && vki < 30)
+else if(vki < 30)
 {
     Console.WriteLine("Kilolu");
 }
-else //30 ve üzeri ise
+else//30 ve üzeri ise
 {
     Console.WriteLine("Aşırı Kilolu");
 }
