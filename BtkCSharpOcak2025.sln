@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u17_yasini_adi_kadar_yaz", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u18_girilen5_sayilarin_ortalamasi", "u18_girilen5_sayilarin_ortalamasi\u18_girilen5_sayilarin_ortalamasi.csproj", "{03FA2C75-DCD6-4E4E-B3BC-DFEC2E627800}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u19_enkucuk_enbuyuk", "u19_enkucuk_enbuyuk\u19_enkucuk_enbuyuk.csproj", "{1406E2AF-084B-4B74-B768-41487EB38FB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -120,5 +122,9 @@ Global
 		{03FA2C75-DCD6-4E4E-B3BC-DFEC2E627800}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03FA2C75-DCD6-4E4E-B3BC-DFEC2E627800}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03FA2C75-DCD6-4E4E-B3BC-DFEC2E627800}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1406E2AF-084B-4B74-B768-41487EB38FB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1406E2AF-084B-4B74-B768-41487EB38FB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1406E2AF-084B-4B74-B768-41487EB38FB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1406E2AF-084B-4B74-B768-41487EB38FB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
