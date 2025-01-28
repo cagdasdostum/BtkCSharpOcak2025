@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u13_askerlik_durumu", "u13_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u14_switch_ile_gunler", "u14_switch_ile_gunler\u14_switch_ile_gunler.csproj", "{967A264E-7426-4EF2-A8CB-59C044A02936}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u15_switch_ile_secim", "u15_switch_ile_secim\u15_switch_ile_secim.csproj", "{19D629B4-E316-4805-BFEE-29912106A1E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -96,5 +98,9 @@ Global
 		{967A264E-7426-4EF2-A8CB-59C044A02936}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{967A264E-7426-4EF2-A8CB-59C044A02936}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{967A264E-7426-4EF2-A8CB-59C044A02936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19D629B4-E316-4805-BFEE-29912106A1E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19D629B4-E316-4805-BFEE-29912106A1E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19D629B4-E316-4805-BFEE-29912106A1E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19D629B4-E316-4805-BFEE-29912106A1E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
