@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u15_switch_ile_secim", "u15
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u16_for_dongusu", "u16_for_dongusu\u16_for_dongusu.csproj", "{29D388D2-1411-441A-97D5-FB6DFB6EF383}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u17_yasini_adi_kadar_yaz", "u17_yasini_adi_kadar_yaz\u17_yasini_adi_kadar_yaz.csproj", "{9FC8F77B-CBBF-45CF-93E3-40A402A56EED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u18_girilen5_sayilarin_ortalamasi", "u18_girilen5_sayilarin_ortalamasi\u18_girilen5_sayilarin_ortalamasi.csproj", "{03FA2C75-DCD6-4E4E-B3BC-DFEC2E627800}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -108,5 +112,13 @@ Global
 		{29D388D2-1411-441A-97D5-FB6DFB6EF383}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29D388D2-1411-441A-97D5-FB6DFB6EF383}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29D388D2-1411-441A-97D5-FB6DFB6EF383}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FC8F77B-CBBF-45CF-93E3-40A402A56EED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FC8F77B-CBBF-45CF-93E3-40A402A56EED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FC8F77B-CBBF-45CF-93E3-40A402A56EED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FC8F77B-CBBF-45CF-93E3-40A402A56EED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03FA2C75-DCD6-4E4E-B3BC-DFEC2E627800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03FA2C75-DCD6-4E4E-B3BC-DFEC2E627800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03FA2C75-DCD6-4E4E-B3BC-DFEC2E627800}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03FA2C75-DCD6-4E4E-B3BC-DFEC2E627800}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
