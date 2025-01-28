@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u14_switch_ile_gunler", "u1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u15_switch_ile_secim", "u15_switch_ile_secim\u15_switch_ile_secim.csproj", "{19D629B4-E316-4805-BFEE-29912106A1E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u16_for_dongusu", "u16_for_dongusu\u16_for_dongusu.csproj", "{29D388D2-1411-441A-97D5-FB6DFB6EF383}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -102,5 +104,9 @@ Global
 		{19D629B4-E316-4805-BFEE-29912106A1E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19D629B4-E316-4805-BFEE-29912106A1E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19D629B4-E316-4805-BFEE-29912106A1E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29D388D2-1411-441A-97D5-FB6DFB6EF383}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29D388D2-1411-441A-97D5-FB6DFB6EF383}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29D388D2-1411-441A-97D5-FB6DFB6EF383}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29D388D2-1411-441A-97D5-FB6DFB6EF383}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
