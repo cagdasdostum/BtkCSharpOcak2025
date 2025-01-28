@@ -40,7 +40,7 @@ foreach(var ort in ortalamalar)
 }
 
 double genelOrt = toplamOrt / ortalamalar.Length;
-Console.WriteLine($"Genel Ortalama: {genelOrt}");
+Console.WriteLine($"Genel Ortalama: {genelOrt:f2}");
 //en yüksek notu ve öğrenciyi bul ve ekrana yazdır
 double ebOrt = Double.MinValue;
 string enBasariliİsim = "";
