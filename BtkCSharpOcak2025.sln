@@ -57,6 +57,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u25_faktoryel_hesabı", "u2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u26_diziler", "u26_diziler\u26_diziler.csproj", "{487F6433-6DFE-481F-841B-BA752D450AE5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u27_ogrenci_ort_dizisi", "u27_ogrenci_ort_dizisi\u27_ogrenci_ort_dizisi.csproj", "{9480D415-3986-42D3-BF34-8BA903008E97}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -174,5 +176,9 @@ Global
 		{487F6433-6DFE-481F-841B-BA752D450AE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{487F6433-6DFE-481F-841B-BA752D450AE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{487F6433-6DFE-481F-841B-BA752D450AE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9480D415-3986-42D3-BF34-8BA903008E97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9480D415-3986-42D3-BF34-8BA903008E97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9480D415-3986-42D3-BF34-8BA903008E97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9480D415-3986-42D3-BF34-8BA903008E97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
