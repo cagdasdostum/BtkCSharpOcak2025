@@ -32,3 +32,24 @@ for(int i = 0; i< isimler.Length; i++)
 {
     Console.WriteLine($"{isimler[i], -20} | {ortalamalar[i], 12}");
 }
+//sınıf genel ortalamasını hesapla ve yazdır
+double toplamOrt = 0;
+foreach(var ort in ortalamalar)
+{
+    toplamOrt += ort;
+}
+
+double genelOrt = toplamOrt / ortalamalar.Length;
+Console.WriteLine($"Genel Ortalama: {genelOrt}");
+//en yüksek notu ve öğrenciyi bul ve ekrana yazdır
+double ebOrt = Double.MinValue;
+string enBasariliİsim = "";
+
+for(int i = 0;i< ortalamalar.Length; i++)
+{
+    if(ortalamalar[i] > ebOrt)
+    {
+        enBasariliİsim = isimler[i];
+    }
+}
+Console.WriteLine($"En Başarılı Öğrenci:{enBasariliİsim}");
