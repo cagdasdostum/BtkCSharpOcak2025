@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u12_not_ortalamasi", "u12_n
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u13_askerlik_durumu", "u13_askerlik_durumu\u13_askerlik_durumu.csproj", "{65088D63-29A0-4980-89E0-45EC94619500}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u14_switch_ile_gunler", "u14_switch_ile_gunler\u14_switch_ile_gunler.csproj", "{967A264E-7426-4EF2-A8CB-59C044A02936}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -90,5 +92,9 @@ Global
 		{65088D63-29A0-4980-89E0-45EC94619500}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65088D63-29A0-4980-89E0-45EC94619500}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65088D63-29A0-4980-89E0-45EC94619500}.Release|Any CPU.Build.0 = Release|Any CPU
+		{967A264E-7426-4EF2-A8CB-59C044A02936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{967A264E-7426-4EF2-A8CB-59C044A02936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{967A264E-7426-4EF2-A8CB-59C044A02936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{967A264E-7426-4EF2-A8CB-59C044A02936}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
