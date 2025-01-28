@@ -22,3 +22,13 @@ for(int i = 0;i < isimler.Length; i++)
     ortalamalar[i] = Convert.ToDouble(Console.ReadLine());
 }
 
+//Ekranda öğrencileri listele
+string baslik1 = "Öğrenci Adı";
+string baslik2 = "Ortalama";
+
+Console.WriteLine($"{baslik1, -20} | {baslik2, 12}");
+Console.WriteLine("-----------------------------------");
+for(int i = 0; i< isimler.Length; i++)
+{
+    Console.WriteLine($"{isimler[i], -20} | {ortalamalar[i], 12}");
+}
