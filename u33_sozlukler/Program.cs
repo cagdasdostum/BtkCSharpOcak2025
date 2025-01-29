@@ -1,6 +1,4 @@
-﻿using System.IO.Compression;
-
-Dictionary<int, string> ogrenciler = new ();
+﻿Dictionary<int, string> ogrenciler = new ();
 
 int num = 0;
 string ad = "";
