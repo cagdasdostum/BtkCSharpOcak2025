@@ -18,7 +18,7 @@ do
     Console.WriteLine("Ortalamasını girin:");
     double ort = Convert.ToDouble(Console.ReadLine());
     //elimde klavyeden girilmiş 3 veri var (nu, isim, ort)
-    Ogrenci ogr = new ();//yeni bir öğrenci örneği oluştur
+    Ogrenci ogr = new();//yeni bir öğrenci örneği oluştur
     ogr.numara = nu;
     ogr.isim = isim;
     ogr.ortalama = ort;
