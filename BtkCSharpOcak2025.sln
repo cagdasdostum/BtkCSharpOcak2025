@@ -75,6 +75,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u34_queue_ve_stack", "u34_q
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u35_metin_ters", "u35_metin_ters\u35_metin_ters.csproj", "{EA3EFB4C-A549-4AF9-9961-F4E04BA0D83F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u36_siniflar", "u36_siniflar\u36_siniflar.csproj", "{726EDDD1-435B-4DBD-B09A-DC7960681582}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -225,6 +227,10 @@ Global
 		{EA3EFB4C-A549-4AF9-9961-F4E04BA0D83F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA3EFB4C-A549-4AF9-9961-F4E04BA0D83F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA3EFB4C-A549-4AF9-9961-F4E04BA0D83F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{726EDDD1-435B-4DBD-B09A-DC7960681582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{726EDDD1-435B-4DBD-B09A-DC7960681582}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{726EDDD1-435B-4DBD-B09A-DC7960681582}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{726EDDD1-435B-4DBD-B09A-DC7960681582}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
