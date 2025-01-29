@@ -15,3 +15,11 @@ foreach(var s in yeniDizi2)
 {
     Console.Write($"{s}, ");
 }
+
+Console.WriteLine();//boş yani alta geç
+
+for(int i = 0;i < yeniDizi2.Length;i++) //foreach ile aynı mantık
+{
+    var s = yeniDizi2[i];
+     Console.Write($"{s}, ");
+}
