@@ -59,13 +59,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u26_diziler", "u26_diziler\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u27_ogrenci_ort_dizisi", "u27_ogrenci_ort_dizisi\u27_ogrenci_ort_dizisi.csproj", "{9480D415-3986-42D3-BF34-8BA903008E97}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u28_dizi_altdizi", "u28_dizi_altdizi\u28_dizi_altdizi.csproj", "{7BA10F1C-2752-443A-BAED-75BA94F5C985}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{F02A1B35-F21F-4CB6-96BC-AAED683ECDBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -180,5 +179,12 @@ Global
 		{9480D415-3986-42D3-BF34-8BA903008E97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9480D415-3986-42D3-BF34-8BA903008E97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9480D415-3986-42D3-BF34-8BA903008E97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BA10F1C-2752-443A-BAED-75BA94F5C985}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BA10F1C-2752-443A-BAED-75BA94F5C985}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BA10F1C-2752-443A-BAED-75BA94F5C985}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BA10F1C-2752-443A-BAED-75BA94F5C985}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
