@@ -69,6 +69,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u31_parola_uygunluk_test", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u32_arraylist_ve_list", "u32_arraylist_ve_list\u32_arraylist_ve_list.csproj", "{5C5EE177-B8DE-4831-893D-DDE34287A4EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u33_sozlukler", "u33_sozlukler\u33_sozlukler.csproj", "{898AAADD-395F-4646-80B9-2AE7EE3123EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -207,6 +209,10 @@ Global
 		{5C5EE177-B8DE-4831-893D-DDE34287A4EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C5EE177-B8DE-4831-893D-DDE34287A4EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C5EE177-B8DE-4831-893D-DDE34287A4EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{898AAADD-395F-4646-80B9-2AE7EE3123EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{898AAADD-395F-4646-80B9-2AE7EE3123EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{898AAADD-395F-4646-80B9-2AE7EE3123EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{898AAADD-395F-4646-80B9-2AE7EE3123EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
