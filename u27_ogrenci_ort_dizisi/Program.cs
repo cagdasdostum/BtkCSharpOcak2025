@@ -50,6 +50,7 @@ for(int i = 0;i< ortalamalar.Length; i++)
     if(ortalamalar[i] > ebOrt)
     {
         enBasariliİsim = isimler[i];
+        ebOrt = ortalamalar[i];//************
     }
 }
 Console.WriteLine($"En Başarılı Öğrenci:{enBasariliİsim}");
