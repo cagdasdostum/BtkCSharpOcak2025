@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u28_dizi_altdizi", "u28_diz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u29_string_sondaki_karakter", "u29_string_sondaki_karakter\u29_string_sondaki_karakter.csproj", "{435B6FDC-A1F1-42CD-B25A-231F9A21B74E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u30_string_metotlari", "u30_string_metotlari\u30_string_metotlari.csproj", "{D337687A-CC88-4DD9-AAB4-EDB3EE14CAFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -189,6 +191,10 @@ Global
 		{435B6FDC-A1F1-42CD-B25A-231F9A21B74E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{435B6FDC-A1F1-42CD-B25A-231F9A21B74E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{435B6FDC-A1F1-42CD-B25A-231F9A21B74E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D337687A-CC88-4DD9-AAB4-EDB3EE14CAFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D337687A-CC88-4DD9-AAB4-EDB3EE14CAFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D337687A-CC88-4DD9-AAB4-EDB3EE14CAFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D337687A-CC88-4DD9-AAB4-EDB3EE14CAFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
