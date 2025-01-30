@@ -1,5 +1,5 @@
 ﻿//ANA PROGRAM
-using u41_sinif_metodu;
+using u41_sinif_metodu;//Konsol kullanılacak
 
 Konsol kon = new();
 

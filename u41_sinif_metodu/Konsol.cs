@@ -14,10 +14,7 @@ public class Konsol
         Console.Clear();
     }
 
-    public void YazSatir(string metin)
-    {
-        Console.WriteLine(metin);
-    }
+
 
     public string MetinOku()
     {
@@ -28,6 +25,11 @@ public class Konsol
     {
         return Convert.ToInt32(Console.ReadLine());
     }
+    public void YazSatir(string metin)
+    {
+        Console.WriteLine(metin);
+    }
+
     public int SayiOku(string mesaj)//*****aşırı yüklenmiş
     {
         YazSatir(mesaj);
