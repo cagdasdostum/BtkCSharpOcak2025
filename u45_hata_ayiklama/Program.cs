@@ -12,10 +12,11 @@ try
     Console.WriteLine("2.Sayıyı gir");
     s2 = Convert.ToInt32(Console.ReadLine());
 }
-catch
+catch (Exception hata)
 {
     //burada hatayı yakala ve işle
     Console.WriteLine("Hata oluştu.");
+    Console.WriteLine(hata.Message);
     return;//main metodunu sonlandırır
 }
 
