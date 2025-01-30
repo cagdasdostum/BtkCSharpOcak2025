@@ -6,13 +6,15 @@
 
 int[] RasgeleUret()
 {
-    List<int> sonuc = new();
+    List<int> sonuc = new ();
     Random rnd = new ();
 
     while(sonuc.Count < 6)
     {
         int sayi = rnd.Next(1, 49 + 1);
-        sonuc.Add(sayi);
+        
+        if(!sonuc.Contains(sayi))//listemde bu sayı yok ise*******
+            sonuc.Add(sayi);
     }
 
     return sonuc.ToArray();//listeyi diziye dönüştür
@@ -27,5 +29,8 @@ void Yazdir(int[] liste)
     Console.WriteLine();
 }
 ///ANA PROGRAM----------------------
-int[] sayilar = RasgeleUret();
-Yazdir(sayilar);
+for (int i = 0; i<6; i++)
+{
+    int[] sayilar = RasgeleUret();
+    Yazdir(sayilar);
+}
