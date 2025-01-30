@@ -1,13 +1,10 @@
 ﻿//ANA PROGRAM
 using u41_sinif_metodu;//Konsol kullanılacak
 
-Konsol kon = new();
+Konsol.Temizle(ConsoleColor.Red);
 
+int s1 = Konsol.SayiOku("Bir sayı girin:");
+int s2 = Konsol.SayiOku("Başka bir sayı girin:");
 
-kon.Temizle(ConsoleColor.Red);
-
-int s1 = kon.SayiOku("Bir sayı girin:");
-int s2 = kon.SayiOku("Başka bir sayı girin:");
-
-kon.YazSatir($"Toplam = {s1 + s2}");
+Konsol.YazSatir($"Toplam = {s1 + s2}");
 

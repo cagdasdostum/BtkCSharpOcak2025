@@ -18,7 +18,7 @@ void AltAltaYaz(params string[] liste)
         Console.WriteLine(str);
 }
 
-Console.WriteLine($"Ücret: {UcretHesapla(16)}");
+Console.WriteLine($"Ücret: {UcretHesapla(16)}");//UcretHesapla(16, 1, 0)
 Console.WriteLine($"Ücret: {UcretHesapla(16, 10)}");
 Console.WriteLine($"Ücret: {UcretHesapla(16, 10, 20)}");
 

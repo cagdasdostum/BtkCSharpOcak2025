@@ -89,6 +89,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u41_sinif_metodu", "u41_sin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u42_varsayilan_degisken_parametre", "u42_varsayilan_degisken_parametre\u42_varsayilan_degisken_parametre.csproj", "{51C23886-257C-4B9A-9DCF-79DD51C140EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u43_static_metot_degiskenadi_uygunmu", "u43_static_metot_degiskenadi_uygunmu\u43_static_metot_degiskenadi_uygunmu.csproj", "{2E255D40-B1EC-412B-A240-D44636EA4B59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -267,6 +269,10 @@ Global
 		{51C23886-257C-4B9A-9DCF-79DD51C140EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51C23886-257C-4B9A-9DCF-79DD51C140EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51C23886-257C-4B9A-9DCF-79DD51C140EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E255D40-B1EC-412B-A240-D44636EA4B59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E255D40-B1EC-412B-A240-D44636EA4B59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E255D40-B1EC-412B-A240-D44636EA4B59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E255D40-B1EC-412B-A240-D44636EA4B59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
