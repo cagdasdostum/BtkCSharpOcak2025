@@ -6,4 +6,3 @@ Console.WriteLine(KodlamaYardim.UygunMu("doktor adi"));
 Console.WriteLine(KodlamaYardim.UygunMu("evliMi?"));
 Console.WriteLine(KodlamaYardim.UygunMu("ogrNo"));
 Console.WriteLine(KodlamaYardim.UygunMu("sayi1"));
-
