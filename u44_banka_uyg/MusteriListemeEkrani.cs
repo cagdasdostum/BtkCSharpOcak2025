@@ -11,5 +11,8 @@ public class MusteriListemeEkrani
         {
             m.Yazdir();
         }
+
+        Console.WriteLine("Müşteriler listelendi. Devam etmek için bir tuşa bas...");
+        Console.ReadKey();//bir tuşa basılana kadar bekle
     }
 }
