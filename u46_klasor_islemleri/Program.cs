@@ -12,16 +12,27 @@ if(Directory.Exists(path))
     //klasörleri listele
     string[] altKlasorler = Directory.GetDirectories(path);
     Console.WriteLine($"Klasörler ({altKlasorler.Length})");
+    
+    Console.ForegroundColor = ConsoleColor.Yellow;
+    
     foreach(string klasor in altKlasorler)
     {
         Console.WriteLine(klasor);
     }
+
+    Console.ResetColor();
+
     //dosyaları listele
     string[] dosyalar = Directory.GetFiles(path);
     Console.WriteLine($"Dosyalar ({dosyalar.Length})");
+   
+    Console.ForegroundColor= ConsoleColor.Blue;
+   
     foreach(string dosya in dosyalar)
     {
         Console.WriteLine(dosya);
     }
+
+    Console.ResetColor();
 }
 
