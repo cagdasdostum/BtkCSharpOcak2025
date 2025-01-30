@@ -23,6 +23,10 @@ do
     {
         MusteriListemeEkrani.Goster(musteriListesi);
     }
+    else if(secim == 0)
+    {
+        Console.WriteLine("Uygulama sona erdi...");
+    }
     else
     {
         Console.WriteLine("Hatalı seçim...");
