@@ -20,7 +20,12 @@
             Console.WriteLine(hata.Message);
             hataVardi = true;
         }
-        
+        finally
+        {
+            //Burası mutlaka çalışacak
+            //hata olsada olmasada
+        }
+
     } while (hataVardi);
 
     return s;
@@ -32,8 +37,8 @@ Console.WriteLine("Hesaplama Uygulaması");
 
 int s1 = 0, s2 = 0;//uygulama için global
 
-s1 = SayiOku("1.Sayıoyo gir");
-s2 = SayiOku("2.Sayıyı gir");
+s1 = SayiOku("1.Sayıyı gir:");
+s2 = SayiOku("2.Sayıyı gir:");
 
 int top = s1 + s2;
 

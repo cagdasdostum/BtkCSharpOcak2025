@@ -95,6 +95,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u44_banka_uyg", "u44_banka_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u45_hata_ayiklama", "u45_hata_ayiklama\u45_hata_ayiklama.csproj", "{29533FBE-BD19-411F-8C46-041174B834A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u46_klasor_islemleri", "u46_klasor_islemleri\u46_klasor_islemleri.csproj", "{A7D54198-34CE-4811-9BB8-AC10AE3D1BE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -285,6 +287,10 @@ Global
 		{29533FBE-BD19-411F-8C46-041174B834A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29533FBE-BD19-411F-8C46-041174B834A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29533FBE-BD19-411F-8C46-041174B834A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7D54198-34CE-4811-9BB8-AC10AE3D1BE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7D54198-34CE-4811-9BB8-AC10AE3D1BE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7D54198-34CE-4811-9BB8-AC10AE3D1BE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7D54198-34CE-4811-9BB8-AC10AE3D1BE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
