@@ -2,7 +2,7 @@
 
 public class Musteri
 {
-    public int MusteriNo { get; set; }
+    public long MusteriNo { get; set; }
     public string AdSoyad {get; set;}
 
     public void Yazdir()

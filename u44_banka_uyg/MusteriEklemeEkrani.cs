@@ -10,7 +10,7 @@ public class MusteriEklemeEkrani
 
         Musteri musteri = new ();
         musteri.AdSoyad = adSoyad;
-        musteri.MusteriNo = (int)DateTime.Now.Ticks;//o anki zaman 
+        musteri.MusteriNo = DateTime.Now.Ticks;//o anki zaman 
 
         liste.Add(musteri);
         

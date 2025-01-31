@@ -1,0 +1,1 @@
+[{"MusteriNo":638739019822352045,"AdSoyad":"Mustafa KURAL"},{"MusteriNo":638739019898131118,"AdSoyad":"Sinan \u00DCR\u00DCN"}]

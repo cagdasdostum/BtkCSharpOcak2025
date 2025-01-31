@@ -11,6 +11,9 @@ using u44_banka_uyg;
 
 int secim = 0;
 List<Musteri> musteriListesi = new();
+
+musteriListesi = DosyaIslemleri.DosyaAc("musteriler.txt");
+
 do
 {
     secim = MenuEkrani.Goster();
@@ -34,3 +37,5 @@ do
     }
 
 } while(secim!=0);
+
+DosyaIslemleri.Kaydet(musteriListesi, "musteriler.txt");
