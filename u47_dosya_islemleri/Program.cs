@@ -15,3 +15,9 @@ Console.WriteLine("Dosya oluşturuldu.");
 
 string okunan = File.ReadAllText(filePath);//dosyayı açar, veriyi oku, dosyayı kapatır
 Console.WriteLine($"Okunan veri: {okunan}");
+
+icerik = "\nBugün günlerden Cuma.";
+File.AppendAllText(filePath, okunan);
+
+okunan = File.ReadAllText(filePath);//dosyayı açar, veriyi oku, dosyayı kapatır
+Console.WriteLine($"Tekrar Okunan veri: {okunan}");
