@@ -8,6 +8,12 @@ public class Db : DbContext //EF Core içinde bulunan DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-       optionsBuilder.UseSqlite("Data Source=D:\\rehber.db");
+        string desktop = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+        string dbFolder = desktop + "\\rehber veritabani";
+        if(!Directory.Exists(dbFolder))
+        {
+            Directory.CreateDirectory(dbFolder);
+        }
+       optionsBuilder.UseSqlite($"Data Source={dbFolder}\\rehber.db");
     }
 }
