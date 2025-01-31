@@ -10,7 +10,7 @@
 using u44_banka_uyg;
 
 int secim = 0;
-List<Musteri> musteriListesi = new();
+List<Musteri> musteriListesi = new();    //List Of Musteri
 
 musteriListesi = DosyaIslemleri.DosyaAc("musteriler.txt");
 
