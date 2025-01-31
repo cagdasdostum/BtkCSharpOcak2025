@@ -1,6 +1,11 @@
 ﻿
 using u49_btk_console;
 
+//Bu konsol için aşağıdaki komutlarıda siz ekleyin
+//clear : ekranı temizler
+//md klasor: verilen klasörü oluşturur.
+//newfile dosyaadi.uzantı : verilen dosyayı oluşturur.
+
 string path;
 
 do

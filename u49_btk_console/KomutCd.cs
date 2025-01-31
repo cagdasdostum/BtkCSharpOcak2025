@@ -31,7 +31,7 @@ public class KomutCd
             } 
         }
 
-        if(string.IsNullOrEmpty(hedefPath))
+        if(!string.IsNullOrEmpty(hedefPath))
             Directory.SetCurrentDirectory(hedefPath);
         else
         {
