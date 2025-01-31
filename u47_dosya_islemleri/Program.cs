@@ -10,6 +10,8 @@ if(!Directory.Exists(folderPath))
 string filePath = folderPath + "\\merhaba.txt";
 string icerik = "Merhaba, c# programlama dili.";
 
-File.WriteAllText(filePath, icerik);
+File.WriteAllText(filePath, icerik);//dosyayı açar, veriyi yazar, dosyayı kapatır.
 Console.WriteLine("Dosya oluşturuldu.");
 
+string okunan = File.ReadAllText(filePath);//dosyayı açar, veriyi oku, dosyayı kapatır
+Console.WriteLine($"Okunan veri: {okunan}");
