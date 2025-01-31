@@ -6,6 +6,8 @@ Console.WriteLine($"{path} isimli Klasör oluşturuldu");
 
 path = "D:\\";
 
+
+
 if(Directory.Exists(path))
 {
     Console.WriteLine($"{path} klasörü var.");
@@ -34,5 +36,16 @@ if(Directory.Exists(path))
     }
 
     Console.ResetColor();
+
+    string masaustu = Environment.
+    GetFolderPath(Environment.SpecialFolder.Desktop);
+    
+    Console.WriteLine($"Masaüstü: {masaustu}");
+    
+    string systemFolderx86 = Environment.
+    GetFolderPath(Environment.SpecialFolder.SystemX86);
+ 
+    Console.WriteLine($"SystemFolderx86: {systemFolderx86}");
+
 }
 
