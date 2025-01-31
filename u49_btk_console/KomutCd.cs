@@ -12,10 +12,32 @@ public class KomutCd
         }
 
         string hedef = args[1]; //hedef klasör yada ..
+        string hedefPath="";
 
-        if(hedef == "..")
+        if(hedef == "..")//bir üst klasör
         {
-            string hedefPath = Path.GetDirectoryName(path);
+            hedefPath = Path.GetDirectoryName(path);
+        }
+        else
+        {
+            string[] altKlasorler =  Directory.GetDirectories(path);
+            foreach(string klasor in altKlasorler) 
+            {
+                if(Path.GetFileName(klasor) == hedef)
+                {
+                    hedefPath = klasor;
+                    break;
+                }
+            } 
+        }
+
+        if(string.IsNullOrEmpty(hedefPath))
+            Directory.SetCurrentDirectory(hedefPath);
+        else
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("Dosya yada klasör bulunamadı.");
+            return;
         }
     }
 }
