@@ -25,5 +25,10 @@ do
     Console.WriteLine("Lütfen seçiminizi girin:");
     int secim = Convert.ToInt32(Console.ReadLine());
 
+    if(secim == 1)
+    {
+        YeniKayitEkrani.Goster(baglanti);
+    }
+
 } while(true);
 
