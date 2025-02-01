@@ -56,3 +56,11 @@ do
 
 } while(true);
 
+
+///Tüm kayıtları silmek için
+/*
+List<Kisi> liste = baglanti.Kisiler.ToList();
+baglanti.Kisiler.RemoveRange(liste);
+baglanti.SaveChanges();
+*/
+
