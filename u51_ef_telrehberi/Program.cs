@@ -29,6 +29,10 @@ do
     {
         YeniKayitEkrani.Goster(baglanti);
     }
+    else if(secim == 2)
+    {
+        ListeleEkrani.Goster(baglanti);
+    }
 
 } while(true);
 

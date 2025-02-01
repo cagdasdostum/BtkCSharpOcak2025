@@ -21,6 +21,7 @@ public class YeniKayitEkrani
         //CREATE-------------------------
         baglanti.Kisiler.Add(kisi);
         baglanti.SaveChanges();
+        //-------------------------------
         Console.WriteLine("Kişi kayıt edildi.");
         Console.WriteLine("Devam etmek için bir tuşa bas...");
         Console.ReadKey();
