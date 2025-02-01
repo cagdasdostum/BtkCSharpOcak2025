@@ -5,14 +5,17 @@ public class GuncelleEkrani
  public static void Goster(Db baglanti)
     {
         Console.WriteLine("Güncelleme Ekranı");//****
-        //READ--------------
+        
         Console.WriteLine("Güncellenecek kişinin Id:");//****
         int id = Convert.ToInt32(Console.ReadLine());//****
+        //READ--------------
         Kisi kisi = baglanti.Kisiler.Find(id);//*****
+        //----------------------
         //Kisi kisi = new();
         if(kisi == null)//****
         {
             Console.WriteLine("Kişi bulunamadı!");//****
+            Console.ReadKey();
             return;//****
         }
 
@@ -27,7 +30,7 @@ public class GuncelleEkrani
         
         Console.Write("Adres girin:");
         kisi.Adres = Console.ReadLine();
-        //CREATE-------------------------
+        //UPDATE-------------------------
         //baglanti.Kisiler.Add(kisi);//*******
         baglanti.SaveChanges();
         //-------------------------------

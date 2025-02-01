@@ -35,6 +35,10 @@ do
     {
         ListeleEkrani.Goster(baglanti);
     }
+    else if(secim == 3)
+    {
+        GuncelleEkrani.Goster(baglanti);
+    }
 
 } while(true);
 
