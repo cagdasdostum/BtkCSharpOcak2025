@@ -1,0 +1,34 @@
+﻿@model Kisi
+
+@{
+    ViewData["Title"] = "Yeni Kişi";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Yeni Kişi</h1>
+<div class="text-start">
+ <form method="post" action="YeniKisi">
+        <div class="mb-3">
+            <label for="Ad" class="form-label">Ad</label>
+            <input asp-for="Ad" type="text" class="form-control" id="Ad" placeholder="Adınızı girin" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="Soyad" class="form-label">Soyad</label>
+            <input asp-for="Soyad" type="text" class="form-control" id="Soyad" placeholder="Soyadınızı girin" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="Tel" class="form-label">Telefon</label>
+            <input asp-for="Tel" type="tel" class="form-control" id="Tel"  placeholder="Telefon numaranızı girin" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="Adres" class="form-label">Adres</label>
+            <textarea asp-for="Adres" class="form-control" id="Adres" rows="3" placeholder="Adresinizi girin" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Gönder</button>
+    </form>
+    </div>
+</div>

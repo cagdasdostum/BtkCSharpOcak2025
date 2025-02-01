@@ -1,0 +1,42 @@
+﻿@model List<Kisi>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Kişi Listesi</h1>
+
+
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Ad</th>
+      <th scope="col">Soyad</th>
+      <th scope="col">Telefon</th>
+       <th scope="col">Adres</th>
+    </tr>
+  </thead>
+  <tbody>
+        @foreach(Kisi kisi in Model)
+        {
+             <tr>
+            <th scope="row">@kisi.Id</th>
+            <td>@kisi.Ad</td>
+            <td>@kisi.Soyad</td>
+            <td>@kisi.Tel</td>
+            <td> @kisi.Adres</td>
+            </tr>
+        }
+
+
+  </tbody>
+</table>
+
+
+
+
+
+</div>
