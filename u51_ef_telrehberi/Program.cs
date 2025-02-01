@@ -24,6 +24,8 @@ do
     Console.WriteLine("0-Çıkış");
     Console.WriteLine("Lütfen seçiminizi girin:");
     int secim = Convert.ToInt32(Console.ReadLine());
+    
+    Console.Clear();
 
     if(secim == 1)
     {
