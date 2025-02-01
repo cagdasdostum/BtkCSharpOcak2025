@@ -39,6 +39,20 @@ do
     {
         GuncelleEkrani.Goster(baglanti);
     }
+    else if(secim == 4)
+    {
+        SilEkrani.Goster(baglanti);  
+    }
+    else if(secim == 0)
+    {
+        Console.WriteLine("Uygulamadan çıkıldı...");
+        break;
+    }
+    else 
+    {
+        Console.WriteLine("Hatalı seçim.");
+        Console.ReadKey();
+    }
 
 } while(true);
 
