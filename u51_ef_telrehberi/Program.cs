@@ -13,3 +13,17 @@ if(baglanti.Database.GetPendingMigrations().Count() > 0) //yeni bir değişiklik
 }
 
 
+//CRUD - Create, Read, Update, Delete
+do
+{
+    Console.Clear();
+    Console.WriteLine("1-Yeni Kayıt");
+    Console.WriteLine("2-Listele");
+    Console.WriteLine("3-Güncelle");
+    Console.WriteLine("4-Sil");
+    Console.WriteLine("0-Çıkış");
+    Console.WriteLine("Lütfen seçiminizi girin:");
+    int secim = Convert.ToInt32(Console.ReadLine());
+
+} while(true);
+

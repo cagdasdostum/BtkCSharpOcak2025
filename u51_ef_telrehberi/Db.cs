@@ -14,6 +14,6 @@ public class Db : DbContext //EF Core içinde bulunan DbContext
         {
             Directory.CreateDirectory(dbFolder);
         }
-       optionsBuilder.UseSqlite($"Data Source={dbFolder}\\rehber.db");
+        optionsBuilder.UseSqlite($"Data Source={dbFolder}\\rehber.db");
     }
 }
