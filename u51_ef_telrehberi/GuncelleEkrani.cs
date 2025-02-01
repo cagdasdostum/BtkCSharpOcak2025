@@ -28,7 +28,7 @@ public class GuncelleEkrani
         Console.Write("Adres girin:");
         kisi.Adres = Console.ReadLine();
         //CREATE-------------------------
-        baglanti.Kisiler.Add(kisi);
+        //baglanti.Kisiler.Add(kisi);//*******
         baglanti.SaveChanges();
         //-------------------------------
         Console.WriteLine("Kişi güncellenedi edildi.");//*****
